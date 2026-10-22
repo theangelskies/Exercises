@@ -26,6 +26,7 @@
 
 // Input: nums = [3,2,4], target = 6
 
+
 // Output: [1,2]
 
 // Explanation:
@@ -53,3 +54,14 @@
  
 
 // Follow-up: Can you come up with an algorithm that is less than O(n2) time complexity?
+
+
+/**
+ * @param {number[]} nums
+ * @param {number} target
+ * @return {number[]}
+ */
+
+var twoSum = function(nums, target) {
+    
+};
