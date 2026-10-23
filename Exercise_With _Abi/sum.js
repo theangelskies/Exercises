@@ -68,7 +68,7 @@ var containsDuplicate = function (nums) {
   return false
 };
 
-// Another Approach, sort 
+// // Another Approach, sort 
 //   var containsDuplicate = function (nums) {
 //   nums.sort((a, b) => a - b);
 //   for (let i = 0; i < nums.length - 1; i++) {
@@ -76,6 +76,10 @@ var containsDuplicate = function (nums) {
 //   }
 //   return false;
 // };
+
+
+
+
 
 
 
