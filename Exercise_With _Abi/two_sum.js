@@ -61,7 +61,19 @@
  * @param {number} target
  * @return {number[]}
  */
-
 var twoSum = function(nums, target) {
+    //there ia an array of numbers 
+    //an integer i.e target which returns two indices
+    //the target is a result of the sum of two indices, the position of the indices do not mather , as long as it is the sum of two consecutive indices in the array
+    //the output should be the an array of the indices
+    //traverse the array and return the the two indices which sum gives us the target
+    //nested loop can be used to achieve this
+    for (let i=0; i<nums.length-1; i++){
+        for (let j=i+1; j<nums.length; j++){
+            if(nums[i]+nums[j]===target) {
+                return [i,j]
+            }
+        }
+    }
     
 };
